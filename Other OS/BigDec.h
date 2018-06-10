@@ -17,7 +17,7 @@ inline BigDec BigDec_delZeroes(BigDec number1, size_t length);
 BigDec BigDec_gcd(BigDec number1, BigDec number2);
 BigDec BigDec_fgcd(BigDec number1, BigDec number2);
 BigDec BigDec_genrfn(BigDec number);
-BigDec BigDec_modularPowerAction(BigDec number, BigDec exp, BigDec mod);
+BigDec BigDec_modularPower(BigDec number, BigDec exp, BigDec mod);
 
 
 inline int BigDec_max(BigDec number1, BigDec number2) { //0-number1<number2 1-number1==number2 2-number1>number2

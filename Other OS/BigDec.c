@@ -623,7 +623,7 @@ BigDec BigDec_modularPower(BigDec number, BigDec exp, BigDec mod) {
 
 }
 
-BigDec BigDec_modularPowerAction(BigDec number, BigDec exp, BigDec mod) {
+static BigDec BigDec_modularPowerAction(BigDec number, BigDec exp, BigDec mod) {
 	
 	if(strcmp(exp,"1")==0)
 	{
