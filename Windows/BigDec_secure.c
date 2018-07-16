@@ -3,6 +3,7 @@
 #include <stdio.h>
 #define DIV 1048576
 #include "BigDec_secure.h"
+
 static char secure=0;
 
 static void* BigDec_secureThread(void *arg);
